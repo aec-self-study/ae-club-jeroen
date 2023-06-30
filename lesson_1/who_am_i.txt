@@ -1,0 +1,6 @@
+Hello, I'm Jeroen
+I'm taking this class to become more familiar with dbt and it's use cases. 
+More specific python Jinja and dbt packages. 
+While refreshing other concepts allong the way.
+
+test1 - newwwwww 11
