@@ -5,17 +5,14 @@ models:
   - name: customers
     description: "customers in coffee shop"
     columns:
-      - name: id
+      - name: customer_id
         description: "The primary key for this table"
         tests:
           - unique
           - not_null
 
-  - name: my_second_dbt_model
+  - name: monthly_new_customers
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: signup_month
         description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
