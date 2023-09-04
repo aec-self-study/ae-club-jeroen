@@ -2,8 +2,8 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
+  - name: customers
+    description: "customers in coffee shop"
     columns:
       - name: id
         description: "The primary key for this table"
