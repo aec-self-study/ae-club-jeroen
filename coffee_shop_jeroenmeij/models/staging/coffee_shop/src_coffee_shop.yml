@@ -22,3 +22,24 @@ sources:
             tests:
               - unique
               - not_null
+
+      - name: products
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null  
+
+      - name: product_prices
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      
+      - name: order_items
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null

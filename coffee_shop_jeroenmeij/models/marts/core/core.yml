@@ -14,3 +14,15 @@ models:
     columns:
       - name: signup_month
         description: "The primary key for this table"
+  
+  - name: item_sales
+    description: "Very item sold"
+    columns:
+      - name: order_item_id
+        description: "The primary key for this table"
+
+  - name: orders
+    description: "orders explained by new or existing customers"
+    columns:
+      - name: order_id
+        description: "The primary key for this table"

@@ -34,7 +34,5 @@ models:
   coffee_shop:
     staging:
       +materialized: view
-    intermediate:
-      +materialized: view
     marts:
       +materialized: view
