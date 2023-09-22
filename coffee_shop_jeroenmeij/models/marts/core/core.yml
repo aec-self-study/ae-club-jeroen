@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: customers
+    description: 'cleaned up table of customers'
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: monthly_new_customers
+    description: "New customer presentations layer"
+    columns:
+      - name: signup_month
+        description: "The primary key for this table"
+  
+  - name: item_sales
+    description: "Very item sold"
+    columns:
+      - name: order_item_id
+        description: "The primary key for this table"
+
+  - name: orders
+    description: "orders explained by new or existing customers"
+    columns:
+      - name: order_id
+        description: "The primary key for this table"
