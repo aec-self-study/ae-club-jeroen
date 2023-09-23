@@ -15,6 +15,9 @@ sources:
             tests:
               - unique
               - not_null
+          # - name: email
+          #   tests:
+          #     - email_format
  
       - name: orders
         columns:
@@ -36,6 +39,9 @@ sources:
             tests:
               - unique
               - not_null
+          - name: price
+            tests:
+              - greater_than_zero
       
       - name: order_items
         columns:
