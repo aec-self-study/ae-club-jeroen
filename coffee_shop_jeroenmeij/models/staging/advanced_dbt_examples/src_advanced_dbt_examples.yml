@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: advanced_dbt_examples
+    project: analytics-engineers-club
+    tables:
+      - name: form_events
